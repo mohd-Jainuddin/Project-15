@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.textbox {
+    width: 300px;
+    padding: 10px;
+    background-color: wheat;
+    margin: 0 auto;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.key {
+    width: 100px;
+    padding: 3px;
+    margin-top: 10px;
+    font-weight: bold;
+    background-color: red;
+}
+
+#change {
+    border-bottom: 2px solid red;
+}
+
+.key:hover {
+    background-color: black;
+    color: white;
+}

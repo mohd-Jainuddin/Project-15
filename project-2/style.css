@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+.container {
+    width: 380px;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+    margin-top: 80px;
+}
+
+#value {
+    font-size: 70px;
+}
+
+
+#btn1 {
+    margin: 10px 15px;
+    padding: 4px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+#btn2 {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+#btn3 {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.hover:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
