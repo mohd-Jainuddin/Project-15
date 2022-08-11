@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 60%;
+    padding: 10px;
+    margin: 0 auto;
+    /* background-color: aqua; */
+    text-align: center;
+}
+h2{
+    margin-bottom: 30px;
+}
+
+.que{
+    padding: 5px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+}
+.para{
+    background-color: lightgray;
+    text-align: left;
+    padding: 5px;
+}
+button{
+    margin: 0 10px;
+    padding: 2px;
+    border-style: none;
+    font-size: large;
+    background-color: antiquewhite;
+}
+
+button:hover{
+    background-color: red;
+}
