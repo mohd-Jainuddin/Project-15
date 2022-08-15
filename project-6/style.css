@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+    width: 170px;
+    padding: 2px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.menu{
+    width: 340px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+ 
+#All{
+    width: 50px;
+    padding: 3px;
+    color: brown;
+    border: 2px solid brown;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+#breakfast{
+    width: 100px;
+    padding: 3px;
+    color: brown;
+    border: 2px solid brown;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+#lunch{
+    width: 80px;
+    padding: 3px;
+    color: brown;
+    border: 2px solid brown;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+#shakes{
+    width: 80px;
+    padding: 3px;
+    color: brown;
+    border: 2px solid brown;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: yellow;
+    padding: 5px;
+}
+
+/* ========================================== */
+
+ .All{
+    width: 600px;
+    height: 150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.img{
+    width: 100px;
+    height: 100px;
+}
+.about{
+    width: 300px;
+    height: 200px;
+}
+
+h1{
+    color: rgb(236, 44, 44);
+    border-bottom: 2px solid brown;
+}
+img{
+    width: 270px;
+    height: 160px;
+    border: 2px solid brown;
+}
+p{
+    position: relative;
+    top: 20px;
+}
