@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(28, 28, 99);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn1 {
+    width: 180px;
+    padding: 7px;
+    border-radius: 15px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 140px;
+    left: 40px;
+}
+
+#btn1:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.big-box {
+    width: 230px;
+    height: 200px;
+    padding: 5px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    bottom: 50px;
+    visibility: hidden;
+}
+
+.box {
+    width: 230px;
+    height: 200px;
+    padding: 5px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    bottom: 50px;
+}
+
+#btn2 {
+    margin-top: 30px;
+    width: 180px;
+    padding: 5px;
+    background-color: rgb(29, 201, 29);
+    color: white;
+    border: none;
+}
+
+#btn2:hover {
+    background-color: lightgreen;
+    cursor: pointer;
+}
+
+.first {
+    margin-top: 10px;
+}
+
+.second {
+    margin-top: 3px;
+}
+
+.check {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(29, 201, 29);
+    position: relative;
+    bottom: 25px;
+    left: 85px;
+    color: white;
+}
+
+i {
+    margin-top: 10px;
+    font-size: 30px;
+}
